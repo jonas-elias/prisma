@@ -17,7 +17,7 @@ Fonte de verdade para identidade, tom, regras editoriais, naming, visual e opera
 
 ## Princípios
 
-1. **Curadoria com ângulo Prisma** — grandes fontes → filtros → reescrita → crédito obrigatório na legenda.
+1. **Curadoria com ângulo Prisma** — grandes fontes → filtros → reescrita → crédito obrigatório na legenda; **diversificar entre publicações** (sem fonte consecutiva igual; ≤2/5).
 2. **Marca-mãe governa** — braços executam editoria sem reinventar tom/visual.
 3. **Proposta vs oficial** — tudo não aprovado fica marcado; não inventar handles/cores.
 

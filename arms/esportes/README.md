@@ -19,7 +19,18 @@ ge, ESPN Brasil, UOL Esporte, Lance!, Gazeta Esportiva, TNT Sports, GOAL Brasil,
 - Só fato confirmado.
 - Priorizar Série A, Copa do Brasil, Libertadores/Sula com BR, Seleção.
 - Mercado só com anúncio/fonte nomeada.
-- Diversificar fontes; crédito obrigatório na legenda.
+- Diversificar fontes conforme **Diversificação de fontes (oficial)** abaixo; crédito obrigatório na legenda (`Fonte: [veículo]`).
+
+## Diversificação de fontes (oficial)
+
+**Contrato editorial** entre marca-mãe e bots responsáveis (hoje: Prisma Esportes; Marketing aplica ao operar a conta). Oficializado em **5 nov 2026** (America/Sao_Paulo). Marketing foi notificado; Esportes deve aplicar a partir da próxima publicação.
+
+1. **Mesclar entre publicações** — a lista oficial de fontes existe para ser rotacionada; não concentrar em um único veículo (ex.: ge em sequência).
+2. **Sem repetição consecutiva** — a fonte do próximo post de feed **não** pode ser a mesma do post de feed imediatamente anterior.
+3. **Janela de 5** — entre os últimos 5 posts de feed, no máximo **2** podem compartilhar a mesma fonte.
+4. **Antes de publicar** — Esportes confere as fontes dos posts recentes e escolhe outro veículo da lista quando o fato existir em mais de um.
+5. **Exceção** — breaking news ou fonte oficial exclusiva (CBF, clube, atleta) quando só aquele veículo confirma: repetição permitida; registrar o motivo em `ops/` / log.
+6. **Crédito** — `Fonte: [veículo]` na legenda permanece obrigatório.
 
 ## Cadência
 

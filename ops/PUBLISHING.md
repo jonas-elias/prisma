@@ -16,6 +16,7 @@ Fonte: consenso Marketing + Esportes / decisões Jonas via chats (ver `arms/espo
 - **Canal web desktop:** feed only. Stories bloqueado no composer desktop (`blocked_desktop_no_composer`).
 - **Fila em lote:** DESCARTADA (notícia envelhece). Cada rodada busca + publica na hora.
 - **Dedupe:** por URL da fonte (não repetir notícia; não reprocessar fontes já vistas).
+- **Rotação de fontes:** regra dura oficial — sem fonte consecutiva igual; ≤2 da mesma nos últimos 5 posts de feed (ver `arms/esportes/README.md`). Marketing notificado; Esportes aplica na próxima publicação.
 - **Dispatch:** 1 navegador curto por post.
 - **Arte:** 4:5. No composer desktop: proporção **Original** ou **4:5** antes de Avançar. Conferir o post inteiro após Share. Não apagar post cortado sem ok do Jonas.
 - **Template:** `prisma-eletrico-unico-v1` — ver `ops/TEMPLATE.md`.
@@ -25,5 +26,5 @@ Fonte: consenso Marketing + Esportes / decisões Jonas via chats (ver `arms/espo
 
 1. Renderizar com o gerador oficial do braço.
 2. Upload feed 4:5 com proporção correta no composer.
-3. Legenda com fato → `Fonte:` → crédito de foto (se houver) → assinatura/hashtags (proposta).
+3. Legenda com fato → `Fonte:` → crédito de foto (se houver) → assinatura/hashtags (proposta). **Conferir diversificação:** não a mesma fonte do post anterior; ≤2/5 na janela recente.
 4. Verificar o post publicado; se cortado com perda de conteúdo, pausar e avisar Jonas + Marketing.

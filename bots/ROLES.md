@@ -8,3 +8,11 @@
 | **Prisma Marketing** | Contas Instagram + imagem da marca |
 
 Handoff: dúvida de tom → Prisma / Nova / Jonas. Mudanças oficiais de marca → atualizar `brand/` neste repo.
+
+## Contrato editorial — fontes
+
+Regra da **marca-mãe** (oficial 5 nov 2026): diversificar fontes entre publicações — sem repetição consecutiva; no máximo 2 da mesma fonte nos últimos 5 posts de feed; crédito `Fonte:` obrigatório. Detalhe e exceções: `arms/esportes/README.md` (seção Diversificação de fontes).
+
+- **Prisma Esportes** escolhe e rotaciona fontes conforme `arms/esportes/`; aplica a partir da próxima publicação.
+- **Prisma Marketing**, ao operar a conta, sinaliza monocultura (ex.: o mesmo veículo em sequência) e reforça a rotação.
+- Dúvida de aplicação → Prisma / Nova / Jonas.
