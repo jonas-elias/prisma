@@ -1,5 +1,7 @@
 # Sistema visual Prisma
 
+**Page Marketing (proposta visual v3):** https://cursor.com/canvas/store-da9a0b86-b1c7-4d7b-aa40-8d059e6d63f9/b368de15-a57c-4083-a0dd-c06aa39273c6
+
 ## Paleta A — Prisma Elétrico (aprovada)
 
 | Papel | Hex | Uso |
@@ -25,4 +27,8 @@ Composição: círculo + anel + P + nome do segmento. Tipografia de referência:
 
 ## Assets
 
-Colocar binários em `visual/assets/` (avatars, templates de post/Stories/Reel, capas de destaque).
+Binários em `visual/assets/` (avatars, templates de post/Stories/Reel, capas de destaque).
+
+Inclui, entre outros: `avatar-esportes.png`, previews 110px, família demo, `post-capa-a.png`, `post-interno-a.png`, `stories-reel-capa-a.png`, destaques (Brasileirão, Copa do Brasil, Libertadores, Seleção, Mercado, Sobre/Fontes), avatars Política/Saúde (sugestão).
+
+Template operacional de feed: ver `ops/TEMPLATE.md` e `arms/esportes/politica-foto-frame.md`.

@@ -24,4 +24,9 @@ ge, ESPN Brasil, UOL Esporte, Lance!, Gazeta Esportiva, TNT Sports, GOAL Brasil,
 ## Cadência
 
 - **Alvo oficial:** automático a cada 1h no feed e Stories; pausa 01h–07h (America/Sao_Paulo); via navegador do box.
-- **Operacional:** pode estar pausada para testes (ex.: teste 10 min, limpeza de perfil, alinhamento de template). Ver `ops/PUBLISHING.md`.
+- **Operacional (5 nov 2026):** cadência PAUSADA; feed only no desktop; ver `ops/PUBLISHING.md`.
+
+## Políticas do braço
+
+- Foto no frame + template: [`politica-foto-frame.md`](./politica-foto-frame.md)
+- Template visual: `ops/TEMPLATE.md`
