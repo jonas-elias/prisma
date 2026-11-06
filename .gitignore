@@ -6,3 +6,5 @@
 .vscode/
 Thumbs.db
 node_modules/
+
+arms/esportes/publish/out/
