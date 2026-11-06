@@ -8,3 +8,8 @@ Thumbs.db
 node_modules/
 
 arms/esportes/publish/out/
+
+# prisma-kit runtime
+kit/out/
+kit/**/__pycache__/
+kit/state/*/published.jsonl

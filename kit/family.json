@@ -1,0 +1,171 @@
+{
+  "$comment": "Regras da FAMÍLIA Prisma (valem para todos os segmentos). Segmento só define acentos, textos e listas próprias em segments/<id>.json. Não editar sem aprovação do Jonas.",
+  "family": "Prisma",
+  "template_version": "prisma-family-v1",
+  "base_palette": {
+    "bg": "#FAFBFF",
+    "surface": "#FFFFFF",
+    "surface2": "#EEF3FF",
+    "text": "#0B1220",
+    "muted": "#4B5568",
+    "line": "#D8DEE9",
+    "signal": "#FF3B00",
+    "on_accent": "#FFFFFF"
+  },
+  "news": {
+    "agora_max_age_minutes": 120,
+    "max_age_hours": 12,
+    "future_tolerance_minutes": 10
+  },
+  "caption": {
+    "body_min_chars": 40,
+    "body_max_chars": 1500,
+    "instagram_max_chars": 2200
+  },
+  "banned_terms": [
+    "urgente",
+    "bomba",
+    "vazou",
+    "vaza",
+    "rumor",
+    "rumores",
+    "especulação",
+    "especula",
+    "chocante",
+    "inacreditável",
+    "você não vai acreditar",
+    "exclusivo"
+  ],
+  "photo_policy": {
+    "$comment": "Só foto com licença liberada. Sem foto válida => kind=typo. Nunca foto de portal/TV/rede social.",
+    "min_width": 800,
+    "min_height": 450,
+    "origins": {
+      "wikimedia": {
+        "label": "Wikimedia Commons",
+        "domains": [
+          "commons.wikimedia.org",
+          "upload.wikimedia.org",
+          "commons.m.wikimedia.org"
+        ],
+        "licenses": [
+          "CC0 1.0",
+          "CC BY 2.0",
+          "CC BY 2.5",
+          "CC BY 3.0",
+          "CC BY 4.0",
+          "CC BY-SA 2.0",
+          "CC BY-SA 2.5",
+          "CC BY-SA 3.0",
+          "CC BY-SA 4.0"
+        ],
+        "generic_only": false
+      },
+      "unsplash": {
+        "label": "Unsplash",
+        "domains": [
+          "unsplash.com",
+          "images.unsplash.com"
+        ],
+        "licenses": [
+          "Unsplash License"
+        ],
+        "generic_only": true
+      },
+      "pexels": {
+        "label": "Pexels",
+        "domains": [
+          "pexels.com",
+          "images.pexels.com"
+        ],
+        "licenses": [
+          "Pexels License"
+        ],
+        "generic_only": true
+      }
+    },
+    "blocked_author_terms": [
+      "reprodução",
+      "reproducao",
+      "divulgação",
+      "divulgacao",
+      "internet",
+      "google",
+      "desconhecido",
+      "unknown",
+      "redes sociais",
+      "instagram",
+      "twitter",
+      "getty",
+      "reuters",
+      "ap photo",
+      "afp",
+      "agif",
+      "estadão conteúdo",
+      "folhapress",
+      "ag. o globo",
+      "agência o globo"
+    ],
+    "blocked_photo_domains": [
+      "globo.com",
+      "g1.globo.com",
+      "ge.globo.com",
+      "oglobo.globo.com",
+      "uol.com.br",
+      "folha.uol.com.br",
+      "estadao.com.br",
+      "lance.com.br",
+      "espn.com.br",
+      "espn.com",
+      "cnnbrasil.com.br",
+      "terra.com.br",
+      "r7.com",
+      "band.uol.com.br",
+      "sbt.com.br",
+      "gazetaesportiva.com",
+      "goal.com",
+      "metropoles.com",
+      "otempo.com.br",
+      "gauchazh.clicrbs.com.br",
+      "correiobraziliense.com.br",
+      "placar.com.br",
+      "trivela.com.br",
+      "meutimao.com.br",
+      "itatiaia.com.br",
+      "jovempan.com.br",
+      "bandsports.com.br",
+      "sportv.globo.com",
+      "gettyimages.com",
+      "gettyimages.com.br",
+      "reuters.com",
+      "apnews.com",
+      "afp.com",
+      "agif.com.br",
+      "instagram.com",
+      "cdninstagram.com",
+      "facebook.com",
+      "fbcdn.net",
+      "x.com",
+      "twitter.com",
+      "twimg.com",
+      "tiktok.com",
+      "youtube.com",
+      "ytimg.com",
+      "google.com",
+      "googleusercontent.com",
+      "gstatic.com",
+      "pinterest.com"
+    ]
+  },
+  "source_rotation": {
+    "$comment": "Regra editorial oficial (Jonas, 2026-11-05): variar fontes no feed. Vale só para posts publicáveis (sample=false). Fonte considerada = 1º nome de source, normalizado pelos aliases do segmento.",
+    "no_consecutive_same_source": true,
+    "window_posts": 5,
+    "max_same_source_in_window": 2,
+    "exception_types": [
+      "breaking",
+      "official_exclusive"
+    ],
+    "exception_reason_min_chars": 15
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "$comment": "Prisma Esportes. Paleta A 'Prisma Elétrico' aprovada pelo Jonas em 2026-11-05. Layout 'sem faixas' aprovado 2026-11-05. Assinatura e hashtags: propostas em uso (ainda não oficializadas).",
+  "segment_id": "esportes",
+  "name": "Prisma Esportes",
+  "wordmark": "PRISMA · ESPORTES",
+  "signature": "Prisma · Esportes",
+  "handle": "@prismaesportesbr",
+  "accents": {
+    "wordmark": "#E11D74",
+    "pill": "#0095E8",
+    "ring": "#FF6A00"
+  },
+  "hashtags": [
+    "#PrismaNoticias",
+    "#PrismaEsportes"
+  ],
+  "pills": [
+    "Brasileirão",
+    "Copa do Brasil",
+    "Libertadores",
+    "Sul-Americana",
+    "Seleção",
+    "Mercado",
+    "Futebol"
+  ],
+  "key_label": "placar ou número-chave (ex.: 3x1, 19 anos, R$ 50 mi)",
+  "$comment_known_sources": "Nome canônico => aliases (mesma fonte p/ regra de rotação), domínios (source_url tem que bater), official=true (aceita exceção official_exclusive), suggest=false (não sugerir como alternativa).",
+  "known_sources": {
+    "ge": {
+      "aliases": [
+        "GE",
+        "globo esporte",
+        "globoesporte",
+        "ge.globo",
+        "ge globo"
+      ],
+      "domains": [
+        "ge.globo.com",
+        "globo.com"
+      ]
+    },
+    "ESPN Brasil": {
+      "aliases": [
+        "ESPN"
+      ],
+      "domains": [
+        "espn.com.br",
+        "espn.com"
+      ]
+    },
+    "UOL Esporte": {
+      "aliases": [
+        "UOL",
+        "UOL Esportes"
+      ],
+      "domains": [
+        "uol.com.br"
+      ]
+    },
+    "Lance!": {
+      "aliases": [
+        "Lance",
+        "LANCE!"
+      ],
+      "domains": [
+        "lance.com.br"
+      ]
+    },
+    "Gazeta Esportiva": {
+      "aliases": [
+        "Gazeta"
+      ],
+      "domains": [
+        "gazetaesportiva.com"
+      ]
+    },
+    "TNT Sports": {
+      "aliases": [
+        "TNT",
+        "TNT Sports Brasil"
+      ],
+      "domains": [
+        "tntsports.com.br"
+      ]
+    },
+    "GOAL Brasil": {
+      "aliases": [
+        "GOAL",
+        "Goal",
+        "Goal.com"
+      ],
+      "domains": [
+        "goal.com"
+      ]
+    },
+    "CNN Esportes": {
+      "aliases": [
+        "CNN Brasil",
+        "CNN",
+        "CNN Brasil Esportes"
+      ],
+      "domains": [
+        "cnnbrasil.com.br"
+      ]
+    },
+    "Placar": {
+      "aliases": [
+        "Revista Placar"
+      ],
+      "domains": [
+        "placar.com.br",
+        "placar.abril.com.br"
+      ]
+    },
+    "CBF": {
+      "aliases": [
+        "Confederação Brasileira de Futebol"
+      ],
+      "domains": [
+        "cbf.com.br"
+      ],
+      "official": true
+    },
+    "Estadão Esporte": {
+      "aliases": [
+        "Estadão",
+        "Estadao",
+        "Estadão Esportes"
+      ],
+      "domains": [
+        "estadao.com.br"
+      ]
+    },
+    "Folha Esporte": {
+      "aliases": [
+        "Folha",
+        "Folha de S.Paulo",
+        "Folha de São Paulo"
+      ],
+      "domains": [
+        "folha.uol.com.br"
+      ]
+    },
+    "Conmebol": {
+      "aliases": [
+        "CONMEBOL"
+      ],
+      "domains": [
+        "conmebol.com"
+      ],
+      "official": true,
+      "suggest": false
+    },
+    "Terra": {
+      "aliases": [],
+      "domains": [
+        "terra.com.br"
+      ],
+      "suggest": false
+    },
+    "O Globo": {
+      "aliases": [
+        "oglobo"
+      ],
+      "domains": [
+        "oglobo.globo.com"
+      ],
+      "suggest": false
+    }
+  },
+  "$comment_official_source_domains": "Sites oficiais de clubes/atletas: source_url nesses domínios conta como fonte OFICIAL para a exceção official_exclusive. Adicionar atleta só com o site oficial dele.",
+  "official_source_domains": [
+    "cbf.com.br",
+    "conmebol.com",
+    "flamengo.com.br",
+    "palmeiras.com.br",
+    "corinthians.com.br",
+    "saopaulofc.net",
+    "santosfc.com.br",
+    "vasco.com.br",
+    "fluminense.com.br",
+    "botafogo.com.br",
+    "cruzeiro.com.br",
+    "atletico.com.br",
+    "athletico.com.br",
+    "gremio.net",
+    "internacional.com.br",
+    "ecbahia.com.br",
+    "fortaleza1918.com.br",
+    "sportrecife.com.br",
+    "ecvitoria.com.br",
+    "rbbragantino.com.br"
+  ],
+  "official_photo_origins": {
+    "$comment": "Fotos oficiais (CBF/clubes) SÓ com licença explícita CC na própria página da foto (ex.: álbum Flickr com CC BY). 'Divulgação' não é licença.",
+    "label_by_domain": {
+      "flickr.com": "Flickr",
+      "www.flickr.com": "Flickr",
+      "cbf.com.br": "CBF"
+    },
+    "licenses": [
+      "CC0 1.0",
+      "CC BY 2.0",
+      "CC BY 3.0",
+      "CC BY 4.0",
+      "CC BY-SA 2.0",
+      "CC BY-SA 3.0",
+      "CC BY-SA 4.0"
+    ]
+  },
+  "state": {
+    "published_log": "state/esportes/published.jsonl"
+  }
+}

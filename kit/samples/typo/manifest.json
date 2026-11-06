@@ -1,0 +1,334 @@
+{
+  "template_version": "prisma-family-v1",
+  "code_fingerprint": "c13df8f65cb8ca2a",
+  "pillow": "13.0.0",
+  "freetype": "2.14.3",
+  "segment": "esportes",
+  "handle": "@prismaesportesbr",
+  "publishable": false,
+  "sample": true,
+  "post_json": "/workspace/prisma-kit/samples/inputs/vasco-typo.json",
+  "post_json_sha256": "028a4ba098b12a74aeb060fd302b5b4f3f2d2636fc07a7f3ba9c317f48d036a1",
+  "title": "Vasco quebra tabu de 19 anos e vira sobre o Athletico na Baixada",
+  "kind": "typo",
+  "competition": "Brasileirão",
+  "key": "3×1",
+  "sources": [
+    "ge"
+  ],
+  "source_url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/05/vasco-quebra-quarto-tabu-no-ano-com-vitoria-sobre-o-athletico-fora-de-casa-veja-lista.ghtml",
+  "source_url_norm": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/05/vasco-quebra-quarto-tabu-no-ano-com-vitoria-sobre-o-athletico-fora-de-casa-veja-lista.ghtml",
+  "published_at": "2026-11-05T22:15:00-03:00",
+  "rendered_at": "2026-11-05T22:40:00-03:00",
+  "agora_badge": true,
+  "photo": null,
+  "slides": 1,
+  "upload_order": [
+    "feed.png"
+  ],
+  "caption_file": "caption.txt",
+  "caption_sha256": "c5108f805f29391902863027bed7cc29852dd12e25449be6b6ac38fd39f134f1",
+  "published_log": null,
+  "headline": {
+    "headline_size": 68,
+    "headline_lines": 3
+  },
+  "files": {
+    "feed.png": {
+      "sha256": "193e1b400a71d704367395815a3f03fe0ee37e20fa18b0ae4474841b2f4a8c4d",
+      "size": [
+        1080,
+        1350
+      ],
+      "aspect": "4:5",
+      "role": "feed_cover",
+      "boxes": [
+        {
+          "name": "tick",
+          "box": [
+            80,
+            176,
+            90,
+            196
+          ],
+          "critical": false
+        },
+        {
+          "name": "wordmark",
+          "box": [
+            104,
+            176,
+            398,
+            198
+          ],
+          "critical": true
+        },
+        {
+          "name": "agora_badge",
+          "box": [
+            875,
+            160,
+            1000,
+            206
+          ],
+          "critical": true
+        },
+        {
+          "name": "pill",
+          "box": [
+            80,
+            222,
+            293,
+            272
+          ],
+          "critical": true
+        },
+        {
+          "name": "frame",
+          "box": [
+            80,
+            296,
+            1000,
+            790
+          ],
+          "critical": false
+        },
+        {
+          "name": "key_competition",
+          "box": [
+            452,
+            455,
+            636,
+            483
+          ],
+          "critical": false
+        },
+        {
+          "name": "key",
+          "box": [
+            432,
+            523,
+            656,
+            631
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[0]",
+          "box": [
+            80,
+            843,
+            839,
+            906
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[1]",
+          "box": [
+            80,
+            921,
+            964,
+            971
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[2]",
+          "box": [
+            80,
+            999,
+            435,
+            1049
+          ],
+          "critical": true
+        },
+        {
+          "name": "meta_fonte",
+          "box": [
+            80,
+            1086,
+            472,
+            1114
+          ],
+          "critical": true
+        }
+      ],
+      "check": {
+        "square_crop_window": [
+          0,
+          135,
+          1080,
+          1215
+        ],
+        "critical_lost_on_center_square": [],
+        "survives_center_square": true,
+        "problems": [],
+        "ok": true
+      }
+    },
+    "stories.png": {
+      "sha256": "ca45384fc8f6ec7f2d6d93e3f0f70106f3a9c34f61f0be0ec58ec756f01fe068",
+      "size": [
+        1080,
+        1920
+      ],
+      "aspect": "9:16",
+      "role": "stories",
+      "boxes": [
+        {
+          "name": "tick",
+          "box": [
+            80,
+            277,
+            90,
+            300
+          ],
+          "critical": false
+        },
+        {
+          "name": "wordmark",
+          "box": [
+            104,
+            277,
+            421,
+            301
+          ],
+          "critical": true
+        },
+        {
+          "name": "pill",
+          "box": [
+            80,
+            334,
+            293,
+            384
+          ],
+          "critical": true
+        },
+        {
+          "name": "agora_badge",
+          "box": [
+            309,
+            334,
+            441,
+            382
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[0]",
+          "box": [
+            80,
+            441,
+            932,
+            512
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[1]",
+          "box": [
+            80,
+            528,
+            737,
+            585
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[2]",
+          "box": [
+            80,
+            615,
+            816,
+            672
+          ],
+          "critical": true
+        },
+        {
+          "name": "dek[0]",
+          "box": [
+            80,
+            702,
+            997,
+            737
+          ],
+          "critical": true
+        },
+        {
+          "name": "dek[1]",
+          "box": [
+            80,
+            752,
+            661,
+            785
+          ],
+          "critical": true
+        },
+        {
+          "name": "frame",
+          "box": [
+            80,
+            835,
+            1000,
+            1530
+          ],
+          "critical": false
+        },
+        {
+          "name": "key_competition",
+          "box": [
+            452,
+            1094,
+            636,
+            1122
+          ],
+          "critical": false
+        },
+        {
+          "name": "key",
+          "box": [
+            432,
+            1162,
+            656,
+            1270
+          ],
+          "critical": true
+        },
+        {
+          "name": "meta_fonte",
+          "box": [
+            80,
+            1574,
+            215,
+            1602
+          ],
+          "critical": true
+        },
+        {
+          "name": "handle",
+          "box": [
+            80,
+            1619,
+            356,
+            1648
+          ],
+          "critical": true
+        }
+      ],
+      "check": {
+        "ui_safe_zone": [
+          0,
+          250,
+          1080,
+          1670
+        ],
+        "critical_under_ui": [],
+        "problems": [],
+        "ok": true
+      }
+    }
+  },
+  "crop_decision": "4:5 com zona segura: todo conteúdo crítico do feed fica dentro do quadrado central 1080x1080 (y 151–1199). Publicar SEMPRE em 'Original' (4:5); se o Instagram cortar 1:1, a manchete, a assinatura e a Fonte sobrevivem."
+}

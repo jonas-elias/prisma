@@ -3,10 +3,9 @@
 Atualizado 2026-11-05 22:18 (decisões Jonas via Prisma Marketing).
 
 ## Template oficial
-prisma-eletrico-unico-v1 — em uso em `publish/render_post.py`.
-Ajustes a–d já aplicados (sem FRAME; tipográfico; manchete; dots só em carrossel; AGORA ≤~2h).
+**Oficial em uso:** `prisma-family-v1` via `kit/prisma_render.py` (layout sem faixas; zona segura 1:1). Encode também em `kit/family.json` / `kit/segments/esportes.json` (comentário: layout sem faixas aprovado 5 nov 2026).
 
-Pendente Marketing: versão sem faixas coloridas de cima/baixo (Jonas não gostou). Até o Jonas aprovar o novo gerador, seguir com o `render_post.py` atual.
+Legado: `prisma-eletrico-unico-v1` em `publish/render_post.py` — não usar em posts novos.
 
 ## Foto PERMITIDO (só com licença liberada + crédito)
 - Wikimedia Commons CC0 / CC BY / CC BY-SA, conferida na página do arquivo

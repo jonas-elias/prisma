@@ -1,0 +1,38 @@
+{
+  "$comment": "MODELO para um novo segmento da família Prisma (ex.: Política, Saúde). Copie para segments/<id>.json, troque TODOS os valores TROCAR e só use depois de o Jonas aprovar cores, handle, assinatura e hashtags. O renderizador recusa arquivos que comecem com '_' e qualquer valor que contenha 'TROCAR'. Campos que começam com '$comment' são ignorados.",
+  "$comment_segment_id": "id curto em minúsculas, igual ao nome do arquivo (segments/politica.json => 'politica'). Usado em --segment.",
+  "segment_id": "TROCAR",
+  "$comment_name": "Nome da página, ex.: 'Prisma Política'.",
+  "name": "TROCAR Prisma <Segmento>",
+  "$comment_wordmark": "Assinatura no topo da arte, em maiúsculas: 'PRISMA · <SEGMENTO>'. Máx. ~24 caracteres.",
+  "wordmark": "TROCAR PRISMA · <SEGMENTO>",
+  "$comment_signature": "Assinatura na legenda e na linha de meta: 'Prisma · <Segmento>'.",
+  "signature": "TROCAR Prisma · <Segmento>",
+  "$comment_handle": "Handle real do Instagram, só depois de criado e aprovado. Não inventar.",
+  "handle": "@TROCAR",
+  "$comment_accents": "Só os 3 acentos mudam por segmento; fundo/texto/sinal AGORA vêm de family.json. Sugestões NÃO aprovadas: Política #5B4CFF, Saúde #00BFA6. 'ring' (barra lateral + tick) deve ser UMA cor só, padrão da família.",
+  "accents": {
+    "wordmark": "#TROCAR",
+    "pill": "#TROCAR",
+    "ring": "#TROCAR"
+  },
+  "$comment_hashtags": "Fixas, entram sempre no fim da legenda. Começar por #PrismaNoticias.",
+  "hashtags": ["#PrismaNoticias", "#TROCAR"],
+  "$comment_pills": "Lista FECHADA de editorias/pílulas permitidas. O post precisa usar uma delas (campo competition).",
+  "pills": ["TROCAR"],
+  "$comment_key_label": "Texto de ajuda: o que vai no destaque tipográfico (placar, número-chave, percentual...).",
+  "key_label": "TROCAR",
+  "$comment_known_sources": "Nome canônico da fonte => aliases (contam como a mesma fonte na regra de rotação), domínios (source_url tem que bater), official (aceita exceção official_exclusive), suggest=false (não sugerir).",
+  "known_sources": {"TROCAR": {"aliases": ["TROCAR"], "domains": ["exemplo.com.br"]}},
+  "$comment_official_source_domains": "Sites oficiais (órgãos, governo, clubes) que contam como fonte oficial para a exceção official_exclusive.",
+  "official_source_domains": ["TROCAR.gov.br"],
+  "$comment_official_photo_origins": "Origens oficiais extras de foto (ex.: governo, ministério) e as licenças aceitas. Só CC explícita.",
+  "official_photo_origins": {
+    "label_by_domain": {"TROCAR.gov.br": "TROCAR"},
+    "licenses": ["CC0 1.0", "CC BY 4.0", "CC BY-SA 4.0"]
+  },
+  "$comment_state": "Log de publicados para dedupe por source_url/título. Um arquivo por segmento.",
+  "state": {
+    "published_log": "state/TROCAR/published.jsonl"
+  }
+}

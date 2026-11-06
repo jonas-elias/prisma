@@ -37,7 +37,15 @@ ge, ESPN Brasil, UOL Esporte, Lance!, Gazeta Esportiva, TNT Sports, GOAL Brasil,
 - **Alvo oficial:** automático a cada 1h no feed e Stories; pausa 01h–07h (America/Sao_Paulo); via navegador do box.
 - **Operacional (5 nov 2026):** cadência PAUSADA; feed only no desktop; ver `ops/PUBLISHING.md`.
 
+
+## Kit de publicação (oficial operacional)
+
+Gerador da família: [`kit/`](../../kit/) (`prisma-family-v1`). Contrato curto de fontes no kit: [`contrato-fontes.md`](./contrato-fontes.md). Checklist: [`kit/PUBLISH.md`](../../kit/PUBLISH.md).
+
+O `publish/render_post.py` local é legado.
+
 ## Políticas do braço
 
 - Foto no frame + template: [`politica-foto-frame.md`](./politica-foto-frame.md)
-- Template visual: `ops/TEMPLATE.md`
+- Template visual: `ops/TEMPLATE.md` + `kit/` (`prisma-family-v1`)
+- Contrato fontes (kit): [`contrato-fontes.md`](./contrato-fontes.md)

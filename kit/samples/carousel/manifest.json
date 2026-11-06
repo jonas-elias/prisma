@@ -1,0 +1,706 @@
+{
+  "template_version": "prisma-family-v1",
+  "code_fingerprint": "c13df8f65cb8ca2a",
+  "pillow": "13.0.0",
+  "freetype": "2.14.3",
+  "segment": "esportes",
+  "handle": "@prismaesportesbr",
+  "publishable": false,
+  "sample": true,
+  "post_json": "/workspace/prisma-kit/samples/inputs/vasco-carousel.json",
+  "post_json_sha256": "bc933b288cd00437eb730db5a26c2d3b2111bb893bb32a94be6d599b35a882ab",
+  "title": "Vasco quebra tabu de 19 anos e vira sobre o Athletico na Baixada",
+  "kind": "typo",
+  "competition": "Brasileirão",
+  "key": "3×1",
+  "sources": [
+    "ge"
+  ],
+  "source_url": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/05/vasco-quebra-quarto-tabu-no-ano-com-vitoria-sobre-o-athletico-fora-de-casa-veja-lista.ghtml",
+  "source_url_norm": "https://ge.globo.com/futebol/times/vasco/noticia/2026/11/05/vasco-quebra-quarto-tabu-no-ano-com-vitoria-sobre-o-athletico-fora-de-casa-veja-lista.ghtml",
+  "published_at": "2026-11-05T22:15:00-03:00",
+  "rendered_at": "2026-11-05T22:40:00-03:00",
+  "agora_badge": true,
+  "photo": null,
+  "slides": 4,
+  "upload_order": [
+    "feed.png",
+    "feed-02.png",
+    "feed-03.png",
+    "feed-04.png"
+  ],
+  "caption_file": "caption.txt",
+  "caption_sha256": "c5108f805f29391902863027bed7cc29852dd12e25449be6b6ac38fd39f134f1",
+  "published_log": null,
+  "headline": {
+    "headline_size": 68,
+    "headline_lines": 3
+  },
+  "files": {
+    "feed.png": {
+      "sha256": "5d64c08e6c317f627752fced1e20f8e3c33f07d670463a0c7d65399c29a973a1",
+      "size": [
+        1080,
+        1350
+      ],
+      "aspect": "4:5",
+      "role": "feed_cover",
+      "boxes": [
+        {
+          "name": "tick",
+          "box": [
+            80,
+            176,
+            90,
+            196
+          ],
+          "critical": false
+        },
+        {
+          "name": "wordmark",
+          "box": [
+            104,
+            176,
+            398,
+            198
+          ],
+          "critical": true
+        },
+        {
+          "name": "agora_badge",
+          "box": [
+            875,
+            160,
+            1000,
+            206
+          ],
+          "critical": true
+        },
+        {
+          "name": "pill",
+          "box": [
+            80,
+            222,
+            293,
+            272
+          ],
+          "critical": true
+        },
+        {
+          "name": "frame",
+          "box": [
+            80,
+            296,
+            1000,
+            790
+          ],
+          "critical": false
+        },
+        {
+          "name": "key_competition",
+          "box": [
+            452,
+            455,
+            636,
+            483
+          ],
+          "critical": false
+        },
+        {
+          "name": "key",
+          "box": [
+            432,
+            523,
+            656,
+            631
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[0]",
+          "box": [
+            80,
+            843,
+            839,
+            906
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[1]",
+          "box": [
+            80,
+            921,
+            964,
+            971
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[2]",
+          "box": [
+            80,
+            999,
+            435,
+            1049
+          ],
+          "critical": true
+        },
+        {
+          "name": "meta_fonte",
+          "box": [
+            80,
+            1086,
+            472,
+            1114
+          ],
+          "critical": true
+        },
+        {
+          "name": "dots",
+          "box": [
+            488,
+            1265,
+            592,
+            1279
+          ],
+          "critical": false
+        }
+      ],
+      "check": {
+        "square_crop_window": [
+          0,
+          135,
+          1080,
+          1215
+        ],
+        "critical_lost_on_center_square": [],
+        "survives_center_square": true,
+        "problems": [],
+        "ok": true
+      }
+    },
+    "feed-02.png": {
+      "sha256": "530ebeedb5e381ad03a9ecc32604b9aad0aeb6a00b51a47c4ad2250f7e594643",
+      "size": [
+        1080,
+        1350
+      ],
+      "aspect": "4:5",
+      "role": "feed_slide",
+      "boxes": [
+        {
+          "name": "tick",
+          "box": [
+            80,
+            176,
+            90,
+            196
+          ],
+          "critical": false
+        },
+        {
+          "name": "wordmark",
+          "box": [
+            104,
+            176,
+            398,
+            198
+          ],
+          "critical": true
+        },
+        {
+          "name": "pill",
+          "box": [
+            80,
+            222,
+            293,
+            272
+          ],
+          "critical": true
+        },
+        {
+          "name": "counter",
+          "box": [
+            956,
+            237,
+            1000,
+            261
+          ],
+          "critical": false
+        },
+        {
+          "name": "slide_text[0]",
+          "box": [
+            120,
+            571,
+            924,
+            624
+          ],
+          "critical": true
+        },
+        {
+          "name": "slide_text[1]",
+          "box": [
+            120,
+            643,
+            956,
+            693
+          ],
+          "critical": true
+        },
+        {
+          "name": "slide_text[2]",
+          "box": [
+            120,
+            714,
+            871,
+            757
+          ],
+          "critical": true
+        },
+        {
+          "name": "slide_text[3]",
+          "box": [
+            120,
+            787,
+            989,
+            839
+          ],
+          "critical": true
+        },
+        {
+          "name": "meta_fonte",
+          "box": [
+            80,
+            1126,
+            472,
+            1154
+          ],
+          "critical": true
+        },
+        {
+          "name": "dots",
+          "box": [
+            488,
+            1265,
+            592,
+            1279
+          ],
+          "critical": false
+        }
+      ],
+      "check": {
+        "square_crop_window": [
+          0,
+          135,
+          1080,
+          1215
+        ],
+        "critical_lost_on_center_square": [],
+        "survives_center_square": true,
+        "problems": [],
+        "ok": true
+      }
+    },
+    "feed-03.png": {
+      "sha256": "299bdcbb9a6c653b583d7db9041edfcb941e206595827c4530b2ac556ae72793",
+      "size": [
+        1080,
+        1350
+      ],
+      "aspect": "4:5",
+      "role": "feed_slide",
+      "boxes": [
+        {
+          "name": "tick",
+          "box": [
+            80,
+            176,
+            90,
+            196
+          ],
+          "critical": false
+        },
+        {
+          "name": "wordmark",
+          "box": [
+            104,
+            176,
+            398,
+            198
+          ],
+          "critical": true
+        },
+        {
+          "name": "pill",
+          "box": [
+            80,
+            222,
+            293,
+            272
+          ],
+          "critical": true
+        },
+        {
+          "name": "counter",
+          "box": [
+            957,
+            237,
+            1000,
+            261
+          ],
+          "critical": false
+        },
+        {
+          "name": "slide_text[0]",
+          "box": [
+            120,
+            533,
+            936,
+            588
+          ],
+          "critical": true
+        },
+        {
+          "name": "slide_text[1]",
+          "box": [
+            120,
+            607,
+            979,
+            649
+          ],
+          "critical": true
+        },
+        {
+          "name": "slide_text[2]",
+          "box": [
+            120,
+            679,
+            861,
+            732
+          ],
+          "critical": true
+        },
+        {
+          "name": "slide_text[3]",
+          "box": [
+            120,
+            750,
+            994,
+            804
+          ],
+          "critical": true
+        },
+        {
+          "name": "slide_text[4]",
+          "box": [
+            120,
+            823,
+            494,
+            865
+          ],
+          "critical": true
+        },
+        {
+          "name": "meta_fonte",
+          "box": [
+            80,
+            1126,
+            472,
+            1154
+          ],
+          "critical": true
+        },
+        {
+          "name": "dots",
+          "box": [
+            488,
+            1265,
+            592,
+            1279
+          ],
+          "critical": false
+        }
+      ],
+      "check": {
+        "square_crop_window": [
+          0,
+          135,
+          1080,
+          1215
+        ],
+        "critical_lost_on_center_square": [],
+        "survives_center_square": true,
+        "problems": [],
+        "ok": true
+      }
+    },
+    "feed-04.png": {
+      "sha256": "1aa5b6ec6e15901fa1aef2a5a322782de2fe885b6ab47c5f9dd9802da9e7d03a",
+      "size": [
+        1080,
+        1350
+      ],
+      "aspect": "4:5",
+      "role": "feed_slide",
+      "boxes": [
+        {
+          "name": "tick",
+          "box": [
+            80,
+            176,
+            90,
+            196
+          ],
+          "critical": false
+        },
+        {
+          "name": "wordmark",
+          "box": [
+            104,
+            176,
+            398,
+            198
+          ],
+          "critical": true
+        },
+        {
+          "name": "pill",
+          "box": [
+            80,
+            222,
+            293,
+            272
+          ],
+          "critical": true
+        },
+        {
+          "name": "counter",
+          "box": [
+            956,
+            237,
+            1000,
+            261
+          ],
+          "critical": false
+        },
+        {
+          "name": "slide_text[0]",
+          "box": [
+            120,
+            643,
+            927,
+            695
+          ],
+          "critical": true
+        },
+        {
+          "name": "slide_text[1]",
+          "box": [
+            120,
+            715,
+            502,
+            757
+          ],
+          "critical": true
+        },
+        {
+          "name": "meta_fonte",
+          "box": [
+            80,
+            1126,
+            472,
+            1154
+          ],
+          "critical": true
+        },
+        {
+          "name": "dots",
+          "box": [
+            488,
+            1265,
+            592,
+            1279
+          ],
+          "critical": false
+        }
+      ],
+      "check": {
+        "square_crop_window": [
+          0,
+          135,
+          1080,
+          1215
+        ],
+        "critical_lost_on_center_square": [],
+        "survives_center_square": true,
+        "problems": [],
+        "ok": true
+      }
+    },
+    "stories.png": {
+      "sha256": "ca45384fc8f6ec7f2d6d93e3f0f70106f3a9c34f61f0be0ec58ec756f01fe068",
+      "size": [
+        1080,
+        1920
+      ],
+      "aspect": "9:16",
+      "role": "stories",
+      "boxes": [
+        {
+          "name": "tick",
+          "box": [
+            80,
+            277,
+            90,
+            300
+          ],
+          "critical": false
+        },
+        {
+          "name": "wordmark",
+          "box": [
+            104,
+            277,
+            421,
+            301
+          ],
+          "critical": true
+        },
+        {
+          "name": "pill",
+          "box": [
+            80,
+            334,
+            293,
+            384
+          ],
+          "critical": true
+        },
+        {
+          "name": "agora_badge",
+          "box": [
+            309,
+            334,
+            441,
+            382
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[0]",
+          "box": [
+            80,
+            441,
+            932,
+            512
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[1]",
+          "box": [
+            80,
+            528,
+            737,
+            585
+          ],
+          "critical": true
+        },
+        {
+          "name": "headline[2]",
+          "box": [
+            80,
+            615,
+            816,
+            672
+          ],
+          "critical": true
+        },
+        {
+          "name": "dek[0]",
+          "box": [
+            80,
+            702,
+            997,
+            737
+          ],
+          "critical": true
+        },
+        {
+          "name": "dek[1]",
+          "box": [
+            80,
+            752,
+            661,
+            785
+          ],
+          "critical": true
+        },
+        {
+          "name": "frame",
+          "box": [
+            80,
+            835,
+            1000,
+            1530
+          ],
+          "critical": false
+        },
+        {
+          "name": "key_competition",
+          "box": [
+            452,
+            1094,
+            636,
+            1122
+          ],
+          "critical": false
+        },
+        {
+          "name": "key",
+          "box": [
+            432,
+            1162,
+            656,
+            1270
+          ],
+          "critical": true
+        },
+        {
+          "name": "meta_fonte",
+          "box": [
+            80,
+            1574,
+            215,
+            1602
+          ],
+          "critical": true
+        },
+        {
+          "name": "handle",
+          "box": [
+            80,
+            1619,
+            356,
+            1648
+          ],
+          "critical": true
+        }
+      ],
+      "check": {
+        "ui_safe_zone": [
+          0,
+          250,
+          1080,
+          1670
+        ],
+        "critical_under_ui": [],
+        "problems": [],
+        "ok": true
+      }
+    }
+  },
+  "crop_decision": "4:5 com zona segura: todo conteúdo crítico do feed fica dentro do quadrado central 1080x1080 (y 151–1199). Publicar SEMPRE em 'Original' (4:5); se o Instagram cortar 1:1, a manchete, a assinatura e a Fonte sobrevivem."
+}

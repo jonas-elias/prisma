@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "prisma-kit/post.schema.json",
+  "title": "Post Prisma (entrada do prisma_render.py)",
+  "description": "Só conteúdo; nada de estilo. O prisma_render.py faz validações extras além deste schema (cabe na arte, licença x origem, domínio da fonte, idade da notícia, duplicados, termos proibidos).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "title",
+    "caption_body",
+    "source",
+    "source_url",
+    "competition",
+    "kind",
+    "published_at"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 140,
+      "description": "Manchete. Tem que caber em 3 linhas a 46 px (senão erro). Sem emoji, sem CAIXA ALTA, sem clickbait."
+    },
+    "dek": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 200,
+      "description": "Linha fina opcional (só aparece nos Stories, máx. 3 linhas)."
+    },
+    "caption_body": {
+      "type": "string",
+      "minLength": 40,
+      "maxLength": 1500,
+      "description": "Texto da legenda escrito com as próprias palavras. SEM 'Fonte:', 'Foto:', assinatura, hashtags, links, @ ou emoji: o template adiciona."
+    },
+    "source": {
+      "description": "Nome do veículo (ex.: \"ge\") ou lista de até 3 nomes. O 1º deve ser o dono da source_url. Regra de rotação: a 1ª fonte (normalizada: ge/GE/globo esporte = ge) não pode repetir a do post anterior nem passar de 2 em 5 posts.",
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 40
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 40
+          }
+        }
+      ]
+    },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https?://",
+      "description": "URL da matéria. Chave de dedupe (published.jsonl)."
+    },
+    "competition": {
+      "type": "string",
+      "description": "Uma das pills do segmento (segments/<id>.json -> pills). Esportes: Brasileirão, Copa do Brasil, Libertadores, Sul-Americana, Seleção, Mercado, Futebol."
+    },
+    "kind": {
+      "enum": [
+        "typo",
+        "photo"
+      ],
+      "description": "typo = arte tipográfica (padrão). photo = só com foto de licença liberada."
+    },
+    "key": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 12,
+      "description": "Só em typo e obrigatório nele: placar ou número-chave (\"3x1\" vira \"3×1\")."
+    },
+    "photo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "author",
+        "origin",
+        "license"
+      ],
+      "description": "Só em kind=photo.",
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "Arquivo local (relativo ao post.json ou absoluto), mín. 800x450."
+        },
+        "author": {
+          "type": "string",
+          "maxLength": 40,
+          "description": "Autor real. 'Reprodução', 'Divulgação', agência etc. são recusados."
+        },
+        "origin": {
+          "type": "string",
+          "pattern": "^https://",
+          "description": "Página da foto com a licença: commons.wikimedia.org, unsplash.com, pexels.com, ou origem oficial do segmento (Flickr/CBF com CC)."
+        },
+        "license": {
+          "type": "string",
+          "description": "Wikimedia: CC0 1.0, CC BY x.x, CC BY-SA x.x. Unsplash: Unsplash License. Pexels: Pexels License. Oficial: CC0/CC BY/CC BY-SA. NC/ND não."
+        },
+        "generic": {
+          "type": "boolean",
+          "description": "Obrigatório true para Unsplash/Pexels: imagem genérica, sem pessoa real/escudo identificável."
+        }
+      }
+    },
+    "published_at": {
+      "type": "string",
+      "description": "ISO 8601 com fuso da publicação da matéria original, ex.: 2026-11-05T22:15:00-03:00. Selo AGORA se <= 2 h; recusa se > 12 h ou no futuro."
+    },
+    "slides": {
+      "type": "array",
+      "maxItems": 9,
+      "description": "Slides extras do carrossel (o 1º slide é a capa). Pontinhos só aparecem se houver slides.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "text"
+        ],
+        "properties": {
+          "text": {
+            "type": "string",
+            "minLength": 20,
+            "maxLength": 420
+          }
+        }
+      }
+    },
+    "sample": {
+      "type": "boolean",
+      "description": "true = amostra/teste: não checa duplicado e o manifest sai publishable=false (NÃO publicar)."
+    },
+    "source_exception": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "reason"
+      ],
+      "description": "Opcional. Só quando a regra de rotação de fontes bloquearia o post: 'breaking' (urgente, só essa fonte tem) ou 'official_exclusive' (só fonte OFICIAL: CBF, clube, atleta). Fica registrada no manifest e no published.jsonl.",
+      "properties": {
+        "type": {
+          "enum": [
+            "breaking",
+            "official_exclusive"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 15
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "typo"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "key"
+        ],
+        "not": {
+          "required": [
+            "photo"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "photo"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "photo"
+        ],
+        "not": {
+          "required": [
+            "key"
+          ]
+        }
+      }
+    }
+  ]
+}

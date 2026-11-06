@@ -14,6 +14,7 @@ Fonte de verdade para identidade, tom, regras editoriais, naming, visual e opera
 | `arms/marketing/` | Prisma Marketing (presença IG, assets, templates) |
 | `bots/` | Papéis dos bots do time e handoffs |
 | `ops/` | Operação (publicação, pausas, checklists) |
+| `kit/` | Gerador oficial da família (`prisma-family-v1`) + checklist de publish |
 
 ## Princípios
 

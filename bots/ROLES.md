@@ -16,3 +16,7 @@ Regra da **marca-mãe** (oficial 5 nov 2026): diversificar fontes entre publica�
 - **Prisma Esportes** escolhe e rotaciona fontes conforme `arms/esportes/`; aplica a partir da próxima publicação.
 - **Prisma Marketing**, ao operar a conta, sinaliza monocultura (ex.: o mesmo veículo em sequência) e reforça a rotação.
 - Dúvida de aplicação → Prisma / Nova / Jonas.
+
+## Publicação (ops)
+
+Arte e caption saem do **`kit/`** (`prisma_render.py`). Marketing e Esportes seguem `kit/PUBLISH.md`; não gerar arte por script paralelo nem editar PNG/legenda à mão.

@@ -4,7 +4,7 @@ Espelho do documento vivo (Page Cursor). Atualizar este arquivo quando a marca-m
 
 **Page:** https://cursor.com/canvas/store-da9a0b86-b1c7-4d7b-aa40-8d059e6d63f9/ab26b99b-e223-4017-ae96-c32065b0cedb
 
-**Status (5 nov 2026, America/Sao_Paulo):** modelo de curadoria + crédito travados; **diversificação de fontes oficializada** (sem fonte repetida em sequência; máx. 2/5 na janela); conta Esportes oficial; paleta A Prisma Elétrico; família de logo; assinatura/hashtags ainda proposta. Cadência automática oficial 1h (pausa 01h–07h) definida, mas **operacionalmente pausada** — ver `ops/PUBLISHING.md`. Política de foto/frame documentada em `arms/esportes/politica-foto-frame.md`. Detalhe do contrato de fontes: `arms/esportes/README.md`.
+**Status (5 nov 2026, America/Sao_Paulo):** modelo de curadoria + crédito travados; **diversificação de fontes oficializada** (sem fonte repetida em sequência; máx. 2/5 na janela; encode em `kit/family.json`); conta Esportes oficial; paleta A Prisma Elétrico; família de logo; layout sem faixas / `prisma-family-v1` em uso via `kit/`; assinatura/hashtags ainda proposta. Cadência alvo oficial 1h (pausa 01h–07h) — estado fino em `ops/PUBLISHING.md`. Política de foto/frame: `arms/esportes/politica-foto-frame.md` + `kit/family.json`. Contrato de fontes: `arms/esportes/README.md` e `arms/esportes/contrato-fontes.md`.
 
 ## O que é
 
